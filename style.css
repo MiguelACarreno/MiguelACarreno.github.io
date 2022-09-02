@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body {
+    background-image: linear-gradient(to right bottom, #F5F5F5, #9fb7c5, #587c91, #1e4358, #030c1f);
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    border-radius: 15px;
+    margin-top: 90px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("./assest/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    border-radius: 20px;
+    background-color: rgb(2, 2, 17);
+    color:#F5F5F5;
+    font-size: 28px;
+}
+.copiar:hover{
+    background-color: #F5F5F5;
+    color:rgb(2, 2, 17);
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: rgb(2, 2, 17);
+    color:#F5F5F5;
+    border-radius: 20px;
+    font-size: 28px;
+
+}
+
+.encriptar:hover{
+    background-color: #F5F5F5;
+    color:rgb(2, 2, 17);
+    
+}
+
+.desencriptar {
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    color:rgb(2, 2, 17);
+    font-size: 28px;
+ 
+}
+.desencriptar:hover{
+    background-color: rgb(2, 2, 17);
+    color:#F5F5F5;
+}
+
+.informacion {
+    margin: 27px 5px;
+    font-size: 25px;
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
